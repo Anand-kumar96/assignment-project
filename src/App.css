@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgba(173, 171, 144, 0.474);
+      display: flex;
+        justify-content: center;
+        margin-top: 35vh;
+}
+/* .content{
+
+} */
+.container{
+      background-color: rgba(130, 187, 187, 0.648);
+      margin: auto;
+      width: 50vh;
+      height: 25vh;
+      border: 2px solid rgb(183, 156, 143);
+      padding: 20px;
+      border-radius: 5px;
+     
+}
+.age,.name,.occupation{
+font-size: 18px;
+padding:5px 15px 2px 15px;
+}
+.age,
+.name:hover{
+  cursor: pointer;
+}
+.login{
+    background-color: rgba(215, 245, 245, 0.648);
+      margin: auto;
+      width: 40vh;
+      height: 20vh;
+      border: 2px solid rgb(221, 155, 124);
+      padding: 20px;
+      border-radius: 5px;
+}
+.btn{
+  background-color:rgb(78, 172, 231);
+  color: white;
+}
+.btn:hover{
+ cursor: pointer;
+ background-color: rgba(189, 201, 163, 0.468);
+ color: black;
+}
+.toggleBtn{
+    background-color: rgb(78, 172, 231);
+      color: white;
+      margin-left: 48vw;
+      margin-top: 10px;
+      padding: 3px 10px;
+      border-radius: 3px;
+               
+}
+
+.toggleBtn:hover{
+  cursor: pointer;
+  color: black;
+}
+.ToggleItems{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.toggleContainer{
+    background-color: rgba(78, 168, 172, 0.377);
+      margin: 0px 10px;
+      width: 20vh;
+      height: 25vh;
+      border: 2px solid rgb(183, 156, 143);
+      padding: 20px;
+      border-radius: 5px;
+}
+.navigationBar{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ list-style: none;
+ -ms-flex-item-align: start;
+ background-color: rgb(80, 171, 255);
+ margin: -250px 0px 200px 0px;
+ width: 100vw;
+}
+.navigationBar > li{
+  margin: 0 20px;
+  font-size:18px;
+  height: 6vh;
+ text-align: center;
+ padding-top: 8px;
+}
+.navigationBar>li:hover{
+  cursor: pointer;
+  color: white;
+}
